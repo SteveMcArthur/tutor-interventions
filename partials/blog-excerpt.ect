@@ -1,0 +1,28 @@
+<article class="post-preview">
+    <div class="row">
+        <div class="col-12 col-sm-4">
+            <div class="post-thumbnail">
+                <img alt="<%-@current.alt%>" src="<%-@current.image%>">
+            </div>
+        </div>
+        <div class="col-12 col-sm-8">
+          <div class="post-container">
+            <div class="post-details">
+                <h2 class="post-title">
+                <a href="<%-@current.relativeUrl || ''%>">
+                    <%-@current.title%>
+                </a>
+                </h2>
+                <%if(@current.subtitle): %>
+                <h3 class="post-subtitle">
+                    <%-@current.subtitle%>
+                </h3>
+                <%end%>
+                <%-@current.excerpt%>
+                <span class="meta"><i class="fa fa-clock-o"></i><%-@current.date.format('MMMM D, YYYY') %></span>
+            </div>
+            </div>
+        </div>
+
+    </div>
+</article>

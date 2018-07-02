@@ -1,0 +1,35 @@
+{
+  "name": "tutor-interventions",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ect": "^0.5.9",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0",
+    "less": "^3.0.2",
+    "metalsmith": "^2.1.0",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-date-formatter": "^1.0.2",
+    "metalsmith-layouts": "^1.4.1",
+    "metalsmith-less": "^2.0.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-moment": "^1.0.0",
+    "metalsmith-page-titles": "^1.0.2",
+    "metalsmith-partial": "^0.1.0",
+    "metalsmith-perma": "^1.0.0",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-sass": "^1.5.1",
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-sitemap": "^1.2.0",
+    "metalsmith-url": "^1.0.0",
+    "metalsmith-watch": "^1.0.3",
+    "truncate-html": "^1.0.0"
+  }
+}
