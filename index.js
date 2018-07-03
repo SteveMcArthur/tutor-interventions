@@ -10,6 +10,8 @@ var pageTitles = require("metalsmith-page-titles");
 var sitemap = require("metalsmith-sitemap");
 var truncateHTML = require("truncate-html");
 var url = require("url");
+var util = require("util");
+var fs = require("fs");
 truncateHTML.setup({
     byWords: true
 });
@@ -82,14 +84,21 @@ metalsmith(__dirname)
             generator: "Metalsmith",
             url: "https://www.website.com"
         },
-        min: false
+        min: false,
+        writeObject: function(obj){
+            fs.writeFileSync("obj.json",util.inspect(obj),'utf-8');
+        }
     })
     .use(pageTitles())
     .source("./src")
     .destination("../build")
     .use(collections({
         articles: {
-            pattern: "blog/post/*.*",
+            pattern: '*.md',
+            sortBy: "date",
+            reverse: true
+        },
+        privateDocs: {
             sortBy: "date",
             reverse: true
         }

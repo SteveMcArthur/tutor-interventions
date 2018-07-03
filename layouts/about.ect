@@ -1,0 +1,55 @@
+<% extend 'layout.ect' %>
+    <%@writeObject(@privateDocs)%>
+    <%mission = @privateDocs.find (el) -> return el.title == "Mission"%>
+    <%testimonials = @privateDocs.find (el) -> return el.title == "Testimonials"%>
+    <%console.log("Testimonials and Mission: mission="+ mission + ", testimonials= "+testimonials)%>
+
+    <header class="page-header text-white text-center" style="background-image:url('<%-@image%>');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 header-content">
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="/">Tutor Interventions</a></li>
+                    <li><a href="<%-@relativeUrl%>"><%-@title%></a></li>
+                </ul>      
+            </div>
+            <h1 class="mb-5"><%-@title%></h1>
+            <div class="seperator"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <article class="post">
+                        <h2><%-@subTitle%></h2>
+                        <div class="seperator left"></div>
+                        <%- @contents %>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-8 col-md-7 col-sm-12">
+                    <article class="post">
+                        <h2><%-mission.title%></h2>
+                        <div class="seperator left"></div>
+                        <%- mission.contents %>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                    <aside class="post">
+                        <div class="side-wrapper">
+                        <h3><%-testimonials.title%></h3>
+                        <div class="seperator left"></div>
+                        <%- testimonials.contents %>
+                        </div>
+                    </aside>
+                </div>
+
+            </div>
+        </div>
+    </div>

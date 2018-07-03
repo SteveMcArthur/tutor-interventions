@@ -14,7 +14,7 @@
 .header-content {
     text-align: left;
 }
-.header-content .seperator {
+.header-content .seperator, .seperator.left {
     margin-left: 0;
 }
 .breadcrumbs {
@@ -69,4 +69,13 @@
 }
 .request-tutor .btn-blue {
     color: #011b3a;
+}
+aside.post {
+    border: 2px solid #00aaff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+}
+.gray {
+    background: #f8f8f8;
 }
