@@ -2,8 +2,8 @@
 layout: about.ect
 title: About Us
 subTitle: Rachael's Welcome
+embedImg: "/img/rachael-avatar.jpg"
 ---
-![Rachael Dyer](/img/rachael-avatar.jpg)
 Welcome to Tutor Interventions in Kent. I’m Rachael Dyer and I set up Tutor Interventions to provide tutoring services for pupils in and around the Canterbury, East Kent area.
 
 I have over 20 years experience teaching children with varying levels of Special Needs, including, but not limited to:

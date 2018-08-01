@@ -1,0 +1,141 @@
+        <div class="container narrow-form">
+            <div class="row">
+                <div class="col-xl-12">
+               
+                <form name="sentMessage" id="contactForm" novalidate>
+                <div class="form-header">
+                    <h3>Request Tutor</h3><i class="fa fa-times"></i>              
+                </div>
+                <div style="clear:both;"></div>
+                 <span>Give us an idea of what you are looking for and we will get back to you very shortly</span>
+
+                <div class="form-row">
+                    <div class="col">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>School subjects your want your tutor to cover</label>
+                                <input type="text" class="form-control" placeholder="School Subjects" id="subjects" required data-validation-required-message="Please enter the student's school subjects.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                     </div>
+                    <div class="col">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>Your Town or Postcode</label>
+                                <input type="text" class="form-control" placeholder="Town or Postcode" id="location"  required data-validation-required-message="Please enter your town or postcode.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col">
+                        <div class="control-group group-outline">
+                            <label class="group-label">How many lessons are you looking for?</label>
+                            <div class="form-group controls">
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label" for="one-off">One Off</label>
+                                    <input type="radio" name="frequency" class="form-control form-check-input" id="one-off" value="one off">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label" for="regular">Regular</label>
+                                    <input type="radio" name="frequency" class="form-control form-check-input" id="regular" value="regular">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="control-group group-outline">
+                            <label class="group-label">Online tutoring or at your home</label>
+                            <div class="form-group controls">
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label" for="online">Online</label>
+                                    <input type="radio" name="delivery" class="form-control form-check-input" id="online" value="online">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label" for="home">At my home</label>
+                                    <input type="radio" name="delivery" class="form-control form-check-input" id="home" value="home">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <div class="control-group">
+                            <div class="form-group controls">
+                                <label>Extra Details</label>
+                                <textarea rows="5" class="form-control" placeholder="Be sure to tell the tutor what you are looking for. Include:
+                                - What age and level is the learner?
+                                - Why you are seeking a tutor.... for exams, an essay or for the fun of learning?
+                                - When and where you would like lessons?" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>First Name</label>
+                                <input type="text" class="form-control" placeholder="First Name" id="first-name" required data-validation-required-message="Please enter your first name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                     </div>
+                    <div class="col">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last Name" id="last-name" required data-validation-required-message="Please enter your last name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone">
+                                 <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                     </div>
+                    <div class="col">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                
+                <div class="form-row">
+                    <div class="col">
+                    <div id="success"></div>
+                            <div class="form-group feature">
+                                <button type="submit" class="btn btn-primary btn-blue" id="sendMessageButton">Send
+                                    <span class="arrow">&gt;</span>
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </form>
+                </div>
+            </div>
+        </div>

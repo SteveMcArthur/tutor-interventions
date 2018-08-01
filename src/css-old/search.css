@@ -1,0 +1,137 @@
+.search-form {
+    position: relative;
+}
+.btn-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 999;
+    cursor: pointer;
+}
+.search-form .cse .gsc-search-button-v2, .search-form .gsc-search-button-v2 {
+    display: none;
+}
+.search-form .gsc-input-box {
+    background: none;
+    border: none;
+}
+
+.search-form .gsc-search-box-tools .gsc-search-box .gsc-input {
+    background-color: transparent !important;
+}
+
+.search-form .gsc-search-box .gsc-input>input:focus,
+.search-form .gsc-input-box-focus {
+  border: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+
+
+.btn-search:focus {
+    outline: none;
+}
+
+.btn-search i {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-top .search .search-container {
+    position: relative;
+    float: right;
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    font-size: 13px;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.navbar-top .search .search-active {
+    width: 255px;
+    cursor: text;
+    background: rgba(255, 255, 255, 0.25);
+    padding-right: 50px;
+    border-radius: 0;
+}
+
+.navbar-top .search input::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: rgba(255, 255, 255, 0);
+   /* opacity: 0.8;*/
+}
+
+.navbar-top .search input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: rgba(255, 255, 255, 0);
+}
+
+.navbar-top .search input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: rgba(255, 255, 255, 0);
+}
+
+.navbar-top .search input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0);
+}
+
+.navbar-top .search input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0);
+}
+
+.navbar-top .search input::placeholder {
+    color: rgba(255, 255, 255, 0);
+}
+
+
+
+.navbar-top .search input.search-active::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: rgba(255, 255, 255, 0.5);
+   /* opacity: 0.8;*/
+}
+
+.navbar-top .search input.search-active:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-top .search input.search-active::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-top .search input.search-active:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-top .search input.search-active::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-top .search input.search-active::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}

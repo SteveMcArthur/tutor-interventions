@@ -21,8 +21,10 @@
             </ul>
             <ul class="navbar-nav pull-right search">																		
                 <li class="nav-item">
-                    <form class="form-inline">
-                        <input class="form-control" type="search">
+                    <form class="form-inline search-form">
+                        <div class="search-container">
+                        <gcse:searchbox-only></gcse:searchbox-only>
+                        </div>
                         <button class="btn-search" type="submit">
                         <i class="fa fa-search"></i>
                         </button>
@@ -33,7 +35,7 @@
     </nav>
     <nav class="navbar navbar-bottom">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
              <span class="hidden"><%-@site.title%></span>
                 <img src="/img/logo-blue.png">
             </a>

@@ -1,0 +1,368 @@
+/**form base**/
+
+form {
+    margin-bottom: 2em;
+}
+
+.floating-label-form-group {
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    resize: none;
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none !important;
+}
+
+.floating-label-form-group input::-webkit-input-placeholder,
+.floating-label-form-group textarea::-webkit-input-placeholder {
+    color: #868e96;
+}
+
+.floating-label-form-group label {
+    font-size: 0.85em;
+    line-height: 1.764705882em;
+    position: relative;
+    z-index: 0;
+    top: 2em;
+    display: block;
+    margin: 0;
+    -webkit-transition: top 0.3s ease, opacity 0.3s ease;
+    -moz-transition: top 0.3s ease, opacity 0.3s ease;
+    -ms-transition: top 0.3s ease, opacity 0.3s ease;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+}
+
+.help-block {
+    margin: 15px 0;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #0085A1;
+}
+
+form .form-group:first-child .floating-label-form-group {
+    border-top: 1px solid #dee2e6;
+}
+
+/*overrides*/
+
+.floating-label-form-group {
+    border: none;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 3px 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.form-group .form-control:focus {
+    border-color: #650039d9;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+.help-block {
+    margin: 0;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.help-block ul {
+    margin-bottom: 0;
+}
+
+.your-contact {
+    margin-left: 2rem;
+}
+
+.your-contact h4 {
+    margin-bottom: 0;
+}
+
+.your-contact ul {
+    padding-left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0.9rem;
+}
+
+.your-contact li {
+    overflow: hidden;
+}
+
+.your-contact i {
+    font-size: 25px;
+    width: 2rem;
+    color: #650039;
+    font-weight: bold;
+    text-align: center;
+}
+
+.your-contact i.fa-mobile-phone {
+    font-size: 30px;
+}
+
+.your-contact .tel a,
+.map-contact .tel a {
+    color: #595959;
+    text-decoration: none;
+}
+
+.map {
+    height: 482px;
+    position: relative;
+    overflow: hidden;
+}
+
+.map-container {
+    position: relative;
+    background: #595959;
+}
+
+.map-container .map-contact {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-right: 15px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 425px;
+    padding: 47px 52px 50px 52px;
+    background: #fff;
+}
+
+.map-contact ul {
+    list-style: none;
+    padding-left: 40px;
+}
+
+.map-contact .contact-list>li>i,
+.map-contact .contact-list>li>a>i {
+    font-size: 25px;
+    width: 2rem;
+    margin-left: -40px;
+    color: #650039;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 5px;
+}
+
+.map-contact .email {
+    white-space: nowrap;
+}
+
+.socials-list {
+    line-height: 30px;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 15px;
+    margin-bottom: -8px;
+}
+
+.socials-list li {
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.socials-list a {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background: #3a5897;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+.socials-list .facebook a {
+    background: #3a5897;
+}
+
+.socials-list .twitter a {
+    background: #00aced;
+}
+
+.socials-list .google a {
+    background: #db4437;
+}
+
+#success {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+
+/**md and above**/
+
+@media (min-width: 992px) {
+    #contactForm {
+        /* margin-right: 5rem; */
+    }
+}
+
+/**request tutor**/
+
+.form-check {
+    min-width: 40%;
+}
+
+.form-group {
+    margin-bottom: 0.5em;
+}
+
+.control-group {
+    width: 100%;
+}
+
+.form-check-label {
+    white-space: nowrap;
+}
+
+.group-outline {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    padding: 9px 20px;
+    margin-top: 20px;
+}
+
+.group-label {
+    color: #535353;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#contactForm .form-control::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #a7a7a7;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#contactForm .form-control:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #a7a7a7;
+    font-style: italic;
+}
+
+#contactForm .form-control::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #a7a7a7;
+    font-style: italic;
+}
+
+#contactForm .form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #a7a7a7;
+    font-style: italic;
+}
+
+#contactForm .form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #a7a7a7;
+    font-style: italic;
+}
+
+#contactForm .form-control::placeholder {
+    color: #a7a7a7;
+    font-style: italic;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    margin-top: 8px;
+}
+
+.floating-label-form-group label {
+    white-space: nowrap;
+}
+
+.narrow-form {
+    max-width: 540px;
+}
+
+.form-check label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.request-popup {
+    position: fixed;
+    background: white;
+    top: 45px;
+    left: 50%;
+    width: 540px;
+    z-index: 999;
+    margin-left: -270px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 5px 5px 4px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.form-header {
+    height: 30px;
+    color: #ccc;
+    width: 100%;
+    position: relative;
+    padding-top:10px;
+}
+.form-header h3 {
+    font-size: 18px;
+    float: left;
+}
+.form-header i {
+    float:right;
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .narrow-form {
+        max-width: 720px;
+    }
+    .request-popup {
+        width: 720px;
+        margin-left: -360px;
+    }
+}

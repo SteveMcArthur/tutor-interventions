@@ -75,7 +75,7 @@ metalsmith(__dirname)
             introText: "Kent Based Tutor With 20 Years Experience",
             introSubText: "",
             subtitle: "",
-            email: "contact@website.com",
+            email: "contact@tutorinterventions.co.uk",
             tel: "",
             description: "Something about your website",
             keywords: "Joe Blogs, developer, programmer, javascript, nodejs, node.js, blog",
@@ -84,7 +84,8 @@ metalsmith(__dirname)
             generator: "Metalsmith",
             url: "https://www.website.com"
         },
-        min: false,
+        mincss: false,
+        combinedcss: false,
         writeObject: function(obj){
             fs.writeFileSync("obj.json",util.inspect(obj),'utf-8');
         }
@@ -130,9 +131,11 @@ metalsmith(__dirname)
             paths: {
                 "layouts/**/*": "**/*",
                 "partials/**/*": "**/*",
-                "src/*.md": "**/*",
-                "src/css/**/*": "**/*",
-                "src/blog/post/*.md": "**/*"
+                "src/*.md": true,
+                "src/*.html": true,
+                "src/css/**/*": true,
+                "src/js/**/*": true,
+                "src/blog/*.md": true
             },
             livereload: false
         })

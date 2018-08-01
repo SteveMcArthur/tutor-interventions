@@ -1,8 +1,6 @@
 <% extend 'layout.ect' %>
-    <%@writeObject(@privateDocs)%>
     <%mission = @privateDocs.find (el) -> return el.title == "Mission"%>
     <%testimonials = @privateDocs.find (el) -> return el.title == "Testimonials"%>
-    <%console.log("Testimonials and Mission: mission="+ mission + ", testimonials= "+testimonials)%>
 
     <header class="page-header text-white text-center" style="background-image:url('<%-@image%>');">
       <div class="overlay"></div>
@@ -28,6 +26,9 @@
                     <article class="post">
                         <h2><%-@subTitle%></h2>
                         <div class="seperator left"></div>
+                        <% if @embedImg: %>
+                            <img src="/img/rachael-avatar.jpg" alt="Rachael Dyer" class="img-left">
+                        <% end %>
                         <%- @contents %>
                     </article>
                 </div>

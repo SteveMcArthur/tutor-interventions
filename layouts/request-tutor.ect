@@ -17,33 +17,5 @@
       </div>
     </header>
     <div class="page-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                <%- @contents %>
-
-                <form class="request-tutor">
-                    <div class="form-row">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Age Range of Student(s)">
-                        <input type="text" class="form-control" placeholder="Days and Times Required">
-                        <input type="text" class="form-control" placeholder="Your Email (Required)">
-                    </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="School Subjects To Cover">
-                        <input type="text" class="form-control" placeholder="Your Town or Postcode">
-                        <input type="text" class="form-control" placeholder="Your Name (Required)">
-                    </div>
-                    </div>
-                    <div class="form-row">
-                    <div class="col">
-                        <textarea class="form-control" placeholder="Message"></textarea>
-                        <input type="submit" value="Send" class="btn btn-primary btn-blue">
-                    </div>
-                
-                    </div>
-                </form>
-                </div>
-            </div>
-        </div>
+        <%-@partial('request-tutor-form.ect')%>
     </div>

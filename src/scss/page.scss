@@ -1,0 +1,86 @@
+@import "variables.scss";
+@import "mixins.scss";
+/*page*/
+.page-header {
+    padding-top: 221px;
+    padding-bottom: 78px;
+    position: relative;
+    background-position: center center;
+    background: $primary;
+    background-size: cover;
+}
+.page-header h1 {
+    font-weight: 300;
+    color: $lightest-background;
+    margin-bottom: 33px;
+}
+.header-content {
+    text-align: left;
+}
+.header-content .seperator, .seperator.left {
+    margin-left: 0;
+}
+.breadcrumbs {
+    line-height: 24px;
+    font-size: 14px;
+}
+.breadcrumbs ul {
+    list-style: none;
+    color: $lightest-background;
+    padding-left: 0;
+}
+.breadcrumbs li {
+    display: inline;
+}
+.breadcrumbs li a {
+    color: $lightest-background;
+    text-decoration: none;
+}
+.breadcrumbs li:not(:last-child):after {
+    content: '\003e';
+    position: relative; 
+    top: -2px; 
+    padding-right: 8px; 
+    padding-left: 8px;
+    color: $lightest-background;
+  }
+.page-content {
+    min-height: 520px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.post ul {
+    list-style: none;
+}
+.page-header .overlay {
+    background-color: rgba($primary,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.post h2, .post h3, .post h4 {
+    margin-bottom: 34px;
+}
+.img-left {
+    float: left;
+    width: 214px;
+    margin: 5px 20px 20px 0;
+}
+.request-tutor {
+    width: 90%;
+    margin: auto;
+}
+.request-tutor .btn-blue {
+    color: #011b3a;
+}
+aside.post {
+    border: 2px solid $secondary;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+}
+.gray {
+    background: #f8f8f8;
+}

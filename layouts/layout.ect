@@ -39,8 +39,10 @@
     <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
-<%if @min:%>
+<%if @mincss:%>
     <link href="/css/styles.min.css" rel="stylesheet">
+<%else if @combinedcss: %>
+ <link href="/css/styles.css" rel="stylesheet">
 <%else:%>
     <!-- Custom styles for this template -->
     <link href="/css/styles.css" rel="stylesheet">
@@ -49,14 +51,11 @@
     <link href="/css/ball-rolling.css" rel="stylesheet">
     <link href="/css/page.css" rel="stylesheet">
     <link href="/css/home.css" rel="stylesheet">
-    <!--
-    <link href="/css/base.css" rel="stylesheet">
-    <link href="/css/blog.css" rel="stylesheet">
-    <link href="/css/footer.css" rel="stylesheet">
-    <link href="/css/nav.css" rel="stylesheet">
-    -->
+    <link href="/css/search.css" rel="stylesheet">
+    <link href="/css/forms.css" rel="stylesheet">
+
 <%end%>
-    <!--<link href="/css/share.css" rel="stylesheet"> -->
+
 <%if(@styles):%>
  <%for style in @styles:%>
     <link href="<%-style%>" rel="stylesheet">
@@ -75,9 +74,30 @@
 <%if(@site.sharethis):%>
 <%-@partial('sharethisscripts.ect')%>
 <%end%>
-    <style>
+<%if(@googlemaps):%>
+    <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 51.2802, lng: 1.0789},
+            zoom: 14
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWy2oV9Spdh3Mmq3qqMH2Sv2WLgJh8tlw&callback=initMap" async defer></script>
+<%end%>
 
-    </style>
+<script>
+  (function() {
+    var cx = '013979487175649159810:5dmpygjru_a';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
 
 </head>
 
@@ -87,13 +107,37 @@
 
     <!-- Footer -->
     <%-@partial('footer.ect')%>
+    <div class="request-popup hidden">
+          <%-@partial('request-tutor-form.ect')%> 
+    </div>
 
     <script src="/vendor/jquery/jquery.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <script src="/js/tutor_me.js"></script>
+    <script src="/js/main.js"></script>
     <%if(@scripts):%>
         <%for script in @scripts:%>
             <script src="<%-script%>"></script>
         <%end%>
     <%end%>
+ <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+        "background": "#284664"
+        },
+        "button": {
+        "background": "#00aaff"
+        }
+    },
+    "content": {
+        "href": "/privacy-policy/"
+    }
+    })});
+    </script>
 </body>
 </html>
