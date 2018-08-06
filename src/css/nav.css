@@ -42,21 +42,11 @@
   width: 200px;
 }
 
-.navbar-top {
-  font-size: 13px;
-  background-color: #284664;
-  padding: 0;
-}
-
-.navbar-top,
 .navbar-bottom {
   display: block;
+  font-weight: bold;
   min-height: 25px;
   margin: 0px auto;
-}
-
-.navbar-bottom {
-  font-weight: bold;
 }
 
 .navbar-bottom .nav-item {
@@ -81,4 +71,26 @@
 
 .bg-trans {
   background: transparent;
+}
+
+.navbar-top {
+  font-size: 13px;
+  background-color: #011b3a;
+  padding: 0;
+  min-height: 25px;
+  margin: 0px auto;
+  display: none;
+}
+
+.navbar-bottom {
+  background-color: #011b3a;
+}
+
+@media (min-width: 768px) {
+  .navbar-top {
+    display: block;
+  }
+  .navbar-bottom {
+    background: transparent;
+  }
 }

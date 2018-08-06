@@ -1,0 +1,41 @@
+<% extend 'layout.ect' %>
+    <header class="page-header text-white text-center" style="background-image:url('<%-@image%>');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 header-content">
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="/">Tutor Interventions</a></li>
+                    <li><a href="<%-@relativeUrl%>"><%-@title%></a></li>
+                </ul>      
+            </div>
+            <h1 class="mb-5"><%-@title%></h1>
+            <div class="seperator"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 ml-auto mr-auto text-center">
+                    <div class="home-text">
+                    <div class="home-title">
+                        <h1>Oops <span class="bold"><%-@title%></span></h1>
+                        <p class="lead"><%-@contents%></p>
+                        <div class="cta">
+                            <a href="/" class="scroll-btn underline">
+                                Take Me Back To The Front Page Quick Smart >>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+

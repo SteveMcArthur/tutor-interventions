@@ -32,16 +32,16 @@ I have over 20 years experience teaching children with varying levels of Special
 
 **The ages I tutor range from 5 yrs – 17 yrs.**
 
-I am used to implementing short-term interventions as directed by pupil’s:
+I am used to implementing short-term interventions as directed by pupils:
 
-Education,Health & Care Plan (EHCP), Personal Education Plan (PEP), Provision Map and the Pupil Premium.
+Education, Health & Care Plan (EHCP), Personal Education Plan (PEP), Provision Map and the Pupil Premium.
 
 **I can support and encourage pupils:**
 
 * To close the gap
 * To catch up on basic skills
 * To build and embed fluency and confidence for exams and tests
-* To accelerate progress, attainment, and achievement
+* To accelerate progress, attainment and achievement
 * To develop a positive mindset and become confident and willing independent learners
 * To gain mastery in concepts and to make progress at their own pace
 * To achieve their full potential

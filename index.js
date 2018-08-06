@@ -76,16 +76,17 @@ metalsmith(__dirname)
             introSubText: "",
             subtitle: "",
             email: "contact@tutorinterventions.co.uk",
-            tel: "",
-            description: "Something about your website",
-            keywords: "Joe Blogs, developer, programmer, javascript, nodejs, node.js, blog",
-            author: "Joe Blogs",
-            homeImage: "/img/stevemcarthur-homepage.jpg",
+            tel: "+44 756 358 2702",
+            description: "Kent based tutor with 20 Years experience teaching children with varying levels of special needs",
+            keywords: "Rachael Dyer,teaching,teacher,tutoring,tutor,education,schools,schooling,11+,special needs",
+            author: "Rachael Dyer",
+            homeImage: "/img/classmates-handsup-header.jpg",
             generator: "Metalsmith",
-            url: "https://www.website.com"
+            url: "https://www.tutorinterventions.co.uk/"
         },
-        mincss: false,
+        mincss: true,
         combinedcss: false,
+        ga: true,
         writeObject: function(obj){
             fs.writeFileSync("obj.json",util.inspect(obj),'utf-8');
         }
@@ -121,7 +122,7 @@ metalsmith(__dirname)
     }))
     .use(
         sitemap({
-            hostname: "https://www.website.com",
+            hostname: "https://www.tutorinterventions.co.uk",
             omitIndex: true
 
         })

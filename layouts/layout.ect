@@ -68,24 +68,36 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<%if(@site.ga):%>
-<%-@partial('google-analytics.ect')%>
+<%if(@ga):%>
+<%-@partial('google-analytics-gtag.ect')%>
 <%end%>
-<%if(@site.sharethis):%>
+<%if(@sharethis):%>
 <%-@partial('sharethisscripts.ect')%>
 <%end%>
 <%if(@googlemaps):%>
     <script>
         var map;
+        var centerLL =  {lat: 51.278191, lng: 1.0810};
         function initMap() {
             map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 51.2802, lng: 1.0789},
-            zoom: 14
+            center: centerLL,
+            zoom: 14,
+            scrollwheel: false
+            });
+            google.maps.event.addListenerOnce(map, 'tilesloaded', function(){
+                 $('.map-overlay').fadeOut(1000,function(){
+                    var marker = new google.maps.Marker({
+                        position: centerLL,
+                        map: map,
+                        animation: google.maps.Animation.DROP
+                    });
+                 })
             });
         }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWy2oV9Spdh3Mmq3qqMH2Sv2WLgJh8tlw&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFO-sbwaYY3QEZ5WtPmWg4XZVbOodk2U8&callback=initMap" async defer></script>
 <%end%>
+
 
 <script>
   (function() {
@@ -110,6 +122,8 @@
     <div class="request-popup hidden">
           <%-@partial('request-tutor-form.ect')%> 
     </div>
+
+
 
     <script src="/vendor/jquery/jquery.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

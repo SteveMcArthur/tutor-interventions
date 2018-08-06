@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "mixins.scss";
 /*nav*/
+
 .hidden {
     display: none;
 }
@@ -26,6 +27,7 @@
     font-size: 18px;
     padding: 0;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
@@ -43,22 +45,13 @@
     width: 200px;
 }
 
-.navbar-top {
-    font-size: 13px;
-    background-color: $primary;
-    padding: 0;
-}
-
-.navbar-top,
 .navbar-bottom {
     display: block;
+    font-weight: bold;
     min-height: 25px;
     margin: 0px auto;
 }
 
-.navbar-bottom {
-    font-weight: bold;
-}
 .navbar-bottom .nav-item {
     margin: 0 24px;
 }
@@ -84,4 +77,24 @@
 .bg-trans {
     background: transparent;
 }
+.navbar-top {
+    font-size: 13px;
+    background-color: $primary;
+    padding: 0;
+    min-height: 25px;
+    margin: 0px auto;
+    display: none;
+}
 
+.navbar-bottom {
+    background-color: $primary;
+}
+
+@media (min-width: 768px) {
+    .navbar-top {
+        display: block;
+    }
+    .navbar-bottom {
+        background: transparent;
+    }
+}

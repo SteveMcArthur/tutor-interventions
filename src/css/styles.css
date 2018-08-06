@@ -181,21 +181,11 @@ header.masthead h1 {
   width: 200px;
 }
 
-.navbar-top {
-  font-size: 13px;
-  background-color: #284664;
-  padding: 0;
-}
-
-.navbar-top,
 .navbar-bottom {
   display: block;
+  font-weight: bold;
   min-height: 25px;
   margin: 0px auto;
-}
-
-.navbar-bottom {
-  font-weight: bold;
 }
 
 .navbar-bottom .nav-item {
@@ -220,6 +210,28 @@ header.masthead h1 {
 
 .bg-trans {
   background: transparent;
+}
+
+.navbar-top {
+  font-size: 13px;
+  background-color: #011b3a;
+  padding: 0;
+  min-height: 25px;
+  margin: 0px auto;
+  display: none;
+}
+
+.navbar-bottom {
+  background-color: #011b3a;
+}
+
+@media (min-width: 768px) {
+  .navbar-top {
+    display: block;
+  }
+  .navbar-bottom {
+    background: transparent;
+  }
 }
 
 /*footer*/
@@ -409,7 +421,7 @@ header.masthead h1 {
   padding-bottom: 78px;
   position: relative;
   background-position: center center;
-  background: #284664;
+  background: #011b3a;
   background-size: cover;
 }
 
@@ -467,7 +479,7 @@ header.masthead h1 {
 }
 
 .page-header .overlay {
-  background-color: rgba(40, 70, 100, 0.8);
+  background-color: rgba(1, 27, 58, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -502,7 +514,11 @@ aside.post {
 }
 
 .gray {
-  background: #f8f8f8;
+  background: #f8f9fa;
+}
+
+.bulleted ul {
+  list-style: disc;
 }
 
 /*home*/
@@ -595,7 +611,7 @@ p {
 
 .section-overlay {
   position: absolute;
-  background-color: rgba(40, 70, 100, 0.8);
+  background-color: rgba(1, 27, 58, 0.8);
   height: 100%;
   width: 100%;
   top: 0;
@@ -819,7 +835,7 @@ form .form-group:first-child .floating-label-form-group {
 }
 
 .form-group .form-control:focus {
-  border-color: #284664;
+  border-color: #011b3a;
 }
 
 form {
@@ -841,7 +857,8 @@ form {
 }
 
 .your-contact h4 {
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .your-contact ul {
@@ -849,6 +866,7 @@ form {
   overflow: hidden;
   white-space: nowrap;
   font-size: 0.9rem;
+  line-height: 1.8rem;
 }
 
 .your-contact li {
@@ -858,7 +876,7 @@ form {
 .your-contact i {
   font-size: 25px;
   width: 2rem;
-  color: #284664;
+  color: #011b3a;
   font-weight: bold;
   text-align: center;
 }
@@ -877,8 +895,18 @@ form {
   height: 482px;
   position: relative;
   overflow: hidden;
+}
+
+.map-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
   background-image: url(/img/google-maps-xsml.jpg);
   background-size: cover;
+  -webkit-transition: all 5s ease;
+  transition: all 5s ease;
 }
 
 .map-container {
@@ -904,12 +932,16 @@ form {
   padding-left: 40px;
 }
 
+.map-contact li {
+  margin-bottom: 15px;
+}
+
 .map-contact .contact-list > li > i,
 .map-contact .contact-list > li > a > i {
   font-size: 25px;
   width: 2rem;
   margin-left: -40px;
-  color: #284664;
+  color: #011b3a;
   font-weight: bold;
   text-align: center;
   padding-right: 5px;
@@ -965,10 +997,10 @@ form {
 
 #success {
   position: absolute;
-  top: 0;
+  top: -50%;
   width: 100%;
   z-index: 999;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 /**md and above**/

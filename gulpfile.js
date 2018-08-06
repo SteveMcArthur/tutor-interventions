@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
+var watch = require("gulp-watch");
 //var pkg = require('./package.json');
 //var browserSync = require('browser-sync').create();
 
@@ -55,16 +56,18 @@ gulp.task('vendor', function () {
 
 // Compile SCSS
 gulp.task('css:compile', function () {
-    console.log("css compilte...");
-    return gulp.src('./src/scss/**/*.scss')
+    console.log("css compile...");
+    return gulp.src('./scss/**/*.scss')
         .pipe(sass.sync({
             outputStyle: 'expanded'
         }).on('error', sass.logError))
         .pipe(gulp.dest('./src/css'))
 });
 
-// Minify CSS
-gulp.task('css:minify', function () {
+
+// CSS
+gulp.task('css', ['css:compile'],function(){
+    console.log("css minify...");
     return gulp.src([
             './src/css/*.css',
             '!./src/css/*.min.css'
@@ -74,23 +77,15 @@ gulp.task('css:minify', function () {
             suffix: '.min'
         }))
         .pipe(gulp.dest('./src/css'))
-    //.pipe(browserSync.stream());
 });
 
-// CSS
-gulp.task('css', ['css:compile', 'css:minify']);
-
 // Default task
-gulp.task('default', ['css']);
+gulp.task('default', ['css'],function(){
+    watch('./scss/*.scss',['css'],function(v){
+        console.log(v.path+ " updated");
+    });
+});
 
-/* // Configure the browserSync task
-gulp.task('browserSync', function() {
-  browserSync.init({
-    server: {
-      baseDir: "./"
-    }
-  });
-}); */
 
 // Dev task
 gulp.task('dev', ['css'], function () {

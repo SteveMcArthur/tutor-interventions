@@ -82,5 +82,8 @@ aside.post {
     padding-top: 35px;
 }
 .gray {
-    background: #f8f8f8;
+    background: $gray-background;
+}
+.bulleted ul {
+    list-style: disc;
 }

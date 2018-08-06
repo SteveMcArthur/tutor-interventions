@@ -46,8 +46,11 @@ $(function() {
                     "Email": email
                 },
                 cache: false,
+                beforeSend: function() {
+                   //$(this).trigger("success");
+                },
                 success: function() {
-                    // Success message
+                    //clear all fields
                     $("#success").html("<div class='alert alert-success'>");
                     $("#success > .alert-success").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -64,10 +67,10 @@ $(function() {
                     $("#success").html("<div class='alert alert-danger'>");
                     $("#success > .alert-danger").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $("#success > .alert-danger").append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                    $("#success > .alert-danger").append("<strong>Woops! It seems that my mail server is not responding. Please try again later!");
                     $("#success > .alert-danger").append("</div>");
                     //clear all fields
-                    $("#contactForm").trigger("reset");
+                    //$("#contactForm").trigger("reset");
                 },
             });
         },
@@ -83,7 +86,3 @@ $(function() {
 });
 
 
-/*When clicking on Full hide fail/success boxes */
-$("#name").focus(function() {
-    $("#success").html("");
-});
