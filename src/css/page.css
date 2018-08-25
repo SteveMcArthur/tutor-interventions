@@ -103,3 +103,7 @@ aside.post {
 .bulleted ul {
   list-style: disc;
 }
+
+.img-wrapper img {
+  width: 100%;
+}

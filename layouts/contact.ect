@@ -69,15 +69,15 @@
             <div class="seperator left"></div>
             <div class="your-contact">
                 For all questions and enquiries
-                <h4>Rachael Dyer</h4>
+                <h4><%-@site.author%></h4>
                 <ul>
-                    <li class="tel"><a href="tel:07563582702"><i class="fa fa-mobile-phone"></i>
-                        0756 358 2702
+                    <li class="tel"><a href="tel:<%-@site.tel%>"><i class="fa fa-mobile-phone"></i>
+                        <%-@site.tel%>
                         </a>
                     </li>
                     <li class="email">
-                    <a href="mailto:rachael@tutorinterventions.co.uk"><i class="fa fa-envelope-o"></i>
-                    rachael@tutorinterventions.co.uk
+                    <a href="mailto:<%-@site.email%>"><i class="fa fa-envelope-o"></i>
+                    <%-@site.email%>
                     </a>
                     </li>
                 </ul>

@@ -72,12 +72,19 @@ metalsmith(__dirname)
     .metadata({
         site: {
             title: "Tutor Interventions",
-            introText: "Kent Based Tutor With 20 Years Experience",
+            introText: "Leicester Based Tutor With 20 Years Experience",
             introSubText: "",
             subtitle: "",
-            email: "contact@tutorinterventions.co.uk",
-            tel: "+44 756 358 2702",
-            description: "Kent based tutor with 20 Years experience teaching children with varying levels of special needs",
+            email: "rachael@tutorinterventions.co.uk",
+            tel: "0756 358 2702",
+            address: "Leicester, United Kingdom",
+            addressLong: "Blaby, Leicester, LE8 4DH",
+            availability: "24-7",
+            coordinates: {
+                lat: 52.5694,
+                lng: -1.1693
+            },
+            description: "Leicester based tutor with 20 Years experience teaching children with varying levels of special needs",
             keywords: "Rachael Dyer,teaching,teacher,tutoring,tutor,education,schools,schooling,11+,special needs",
             author: "Rachael Dyer",
             homeImage: "/img/classmates-handsup-header.jpg",

@@ -29,6 +29,7 @@
 
 .search-form .gsc-search-box-tools .gsc-search-box .gsc-input {
   background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .search-form .gsc-search-box .gsc-input > input:focus,

@@ -4,7 +4,7 @@ title: About Us
 subTitle: Rachael's Welcome
 embedImg: "/img/rachael-avatar.jpg"
 ---
-Welcome to Tutor Interventions in Kent. I’m Rachael Dyer and I set up Tutor Interventions to provide tutoring services for pupils in and around the Canterbury, East Kent area.
+Welcome to Tutor Interventions in Leicester. I’m Rachael Dyer and I set up Tutor Interventions to provide tutoring services for pupils in and around the Leicester area.
 
 I have over 20 years experience teaching children with varying levels of Special Needs, including, but not limited to:
 
@@ -19,7 +19,7 @@ I have over 20 years experience teaching children with varying levels of Special
 **Tutoring can include the following tests and exam preparations:**
 
 * Basic KS1, KS2 & KS3 Skills
-* SATS, 11+ (Kent Test)
+* SATS, 11+
 * Entry Level, Functional Skills
 * GCSE, Technical Awards and ASDAN
 
