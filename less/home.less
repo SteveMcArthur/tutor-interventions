@@ -1,25 +1,26 @@
-@import "variables.scss";
-@import "mixins.scss";
+// out: ../src/css/home.css
+@import "variables.less";
+@import "mixins.less";
 /*home*/
 .btn {
     border-radius: 0;
 }
 .btn-blue {
-    background-color: transparent;
-    border: 2px solid $secondary;
+    background-color: @secondary;
+    border: 2px solid @secondary;
     min-width: 160px;
     display: inline-block;
-    color: $lightest-background;
+    color: @lightest-background;
     line-height: 46px;
     padding: 0 24px;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
 }
-.btn-blue:hover {
-    color: $lightest-background;
-    background-color: $secondary;
-    border-color: $secondary;
+.btn-blue:hover, .btn-blue:active {
+    color: @lightest-background;
+    background-color: @blue2;
+    border-color: @blue2;
 }
 .masthead h1 {
     font-weight: 400;
@@ -40,7 +41,7 @@
     color: #011b3a;
 }
 .feature.bg-dark h2 {
-    color:$lightest-background;
+    color:@lightest-background;
 }
 
 p {
@@ -49,7 +50,7 @@ p {
     color: #595959;
 }
 .seperator {
-    border-bottom: 2px solid $secondary;
+    border-bottom: 2px solid @secondary;
     margin-bottom: 41px;
     width: 60px;
     height: 2px;
@@ -57,7 +58,7 @@ p {
     margin-right: auto;
 }
 .bg-dark {
-    color: $lightest-background
+    color: @lightest-background
 }
 .icon-item {
     padding: 40px;
@@ -80,7 +81,7 @@ p {
 }
 .section-overlay {
     position: absolute;
-    background-color: rgba( $primary, .8 );
+    background-color: rgba( @primary, .8 );
     height: 100%;
     width: 100%;
     top: 0;

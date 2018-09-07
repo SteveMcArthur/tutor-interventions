@@ -57,7 +57,7 @@ gulp.task('vendor', function () {
 // Compile SCSS
 gulp.task('css:compile', function () {
     console.log("css compile...");
-    return gulp.src('./scss/**/*.scss')
+    return gulp.src('./scss/styles.scss')
         .pipe(sass.sync({
             outputStyle: 'expanded'
         }).on('error', sass.logError))

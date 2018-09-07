@@ -72,7 +72,7 @@ metalsmith(__dirname)
     .metadata({
         site: {
             title: "Tutor Interventions",
-            introText: "Leicester Based Tutor With 20 Years Experience",
+            introText: "Private Tutoring In Leicester By A Tutor With 20 Years Experience",
             introSubText: "",
             subtitle: "",
             email: "rachael@tutorinterventions.co.uk",
@@ -84,8 +84,8 @@ metalsmith(__dirname)
                 lat: 52.5694,
                 lng: -1.1693
             },
-            description: "Leicester based tutor with 20 Years experience teaching children with varying levels of special needs",
-            keywords: "Rachael Dyer,teaching,teacher,tutoring,tutor,education,schools,schooling,11+,special needs",
+            description: "Private Tutoring In Leicester By A Tutor With 20 Years Experience",
+            keywords: "private tutor,private tutoring,gcse maths tutor,gcse english tutor,Rachael Dyer,teaching,teacher,tutoring,tutor,education,schools,schooling,11+,special needs",
             author: "Rachael Dyer",
             homeImage: "/img/classmates-handsup-header.jpg",
             generator: "Metalsmith",
@@ -139,6 +139,7 @@ metalsmith(__dirname)
             paths: {
                 "layouts/**/*": "**/*",
                 "partials/**/*": "**/*",
+                "index.js" : "**/*",
                 "src/*.md": true,
                 "src/*.html": true,
                 "src/css/**/*": true,

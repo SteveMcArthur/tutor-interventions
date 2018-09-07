@@ -55,9 +55,21 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
+header.masthead .contact-me {
+  margin-bottom: 1em;
+}
+
+header.masthead .contact-me a {
+  color: #fff;
+}
+
+header.masthead p {
+  color: #fff;
+}
+
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
+    padding-top: 10rem;
     padding-bottom: 12rem;
   }
   header.masthead h1 {
@@ -531,7 +543,7 @@ aside.post {
 }
 
 .btn-blue {
-  background-color: transparent;
+  background-color: #00aaff;
   border: 2px solid #00aaff;
   min-width: 160px;
   display: inline-block;
@@ -543,10 +555,10 @@ aside.post {
   font-weight: 400;
 }
 
-.btn-blue:hover {
+.btn-blue:hover, .btn-blue:active {
   color: #fff;
-  background-color: #00aaff;
-  border-color: #00aaff;
+  background-color: #0062cc;
+  border-color: #0062cc;
 }
 
 .masthead h1 {

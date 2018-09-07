@@ -1,5 +1,6 @@
-@import "variables.scss";
-@import "mixins.scss";
+// out: ../src/css/nav.css
+@import "variables.less";
+@import "mixins.less";
 /*nav*/
 
 .hidden {
@@ -13,7 +14,7 @@
 .navbar i {
     font-size: 20px;
     margin-right: 0.8rem;
-    color: $secondary;
+    color: @secondary;
 }
 
 .navbar .tel i {
@@ -60,12 +61,12 @@
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-    color: $secondary;
+    color: @secondary;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: $secondary;
+    color: @secondary;
 }
 
 .navbar-nav.search .nav-item {}
@@ -79,7 +80,7 @@
 }
 .navbar-top {
     font-size: 13px;
-    background-color: $primary;
+    background-color: @primary;
     padding: 0;
     min-height: 25px;
     margin: 0px auto;
@@ -87,7 +88,7 @@
 }
 
 .navbar-bottom {
-    background-color: $primary;
+    background-color: @primary;
 }
 
 @media (min-width: 768px) {

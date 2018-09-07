@@ -1,0 +1,69 @@
+119903|"The Latimer Primary School, Anstey, Latimer Street, Anstey, Leicester, LE7 7AW"|52.67|-1.18|4331.00|1.00|0.00|312.00
+120216|"Saint Francis Catholic Primary School, Dalby Road, , Melton Mowbray, LE13 0BP"|52.75|-0.89|4336.00|1.00|0.00|251.00
+120161|"Manorfield Church of England Primary School Stoney Stanton, Station Road, Stoney Stanton, Leicester, LE9 4LU"|52.54|-1.28|4154.00|1.00|0.00|347.00
+120162|"Swannington Church of England Primary School, Swannington Church of England Primary School, Main Street, Swannington, Coalville, LE67 8QJ"|52.74|-1.38|7393.00|1.00|0.00|63.00
+120166|"Thurnby, St Luke's Church of England Primary School, Thurnby, St Luke's Church of England Primary School, Main Street, Thurnby, Leicester, LE7 9PN"|52.62|-1.04|4811.00|1.00|0.00|200.00
+120171|"Whitwick St John The Baptist Church of England Primary School, Parsonwood Hill, Whitwick, Coalville, LE67 5AT"|52.74|-1.35|4434.00|1.00|0.00|349.00
+120173|"Woodhouse Eaves St Paul's Church of England Primary School, Meadow Road, Woodhouse Eaves, Loughborough, LE12 8SA"|52.72|-1.21|4261.00|1.00|0.00|216.00
+120175|"Hathern Church of England Primary School, Pasture Lane, Hathern, Loughborough, LE12 5LJ"|52.79|-1.25|5763.00|1.00|0.00|119.00
+120188|"Sherrier Church of England Primary School, Bitteswell Road, , Lutterworth, LE17 4EX"|52.46|-1.20|3837.00|1.00|0.00|374.00
+120190|"Ashby-de-la-Zouch Church of England Primary School, Burton Road, , Ashby-de-la-Zouch, LE65 2LL"|52.74|-1.47|4399.00|1.00|0.00|301.00
+119982|"Orchard Community Primary School, Grange Drive, Castle Donington, Derby, DE74 2QU"|52.84|-1.34|4284.00|1.00|0.00|238.00
+119984|"Newlands Community Primary School, Moore Road, Barwell, Leicester, LE9 8AG"|52.57|-1.33|4826.00|1.00|0.00|274.00
+119985|"Kingsway Primary School, Kingsway Primary School, Kingsway North, , Leicester, LE3 3BD"|52.61|-1.18|4338.00|1.00|0.00|314.00
+119986|"Sketchley Hill Primary School Burbage, Sketchley Road, Burbage, Hinckley, LE10 2DY"|52.52|-1.36|3780.00|1.00|0.00|430.00
+120106|"Woodland Grange Primary School, Oadby, Woodland Grange Primary School, Beaufort Way, Oadby, Leicester, LE2 4TY"|52.59|-1.05|5286.00|1.00|0.00|368.00
+120109|"Arnesby Church of England Primary School, Mill Hill Road, Arnesby, Leicester, LE8 5WG"|52.52|-1.09|7404.00|1.00|0.00|50.00
+120115|"Billesdon Church of England Primary School, Gaulby Road, Billesdon, Leicester, LE7 9AG"|52.61|-0.93|5118.00|1.00|0.00|100.00
+120117|"Blackfordby St Margaret's Church of England (Aided) Primary School, Blackfordby St Margaret's Church of England Primary School, Off Main Street, Blackfordby, Swadlincote, DE11 8AB"|52.75|-1.51|4870.00|1.00|0.00|102.00
+120119|"St Hardulph's Church of England Primary School, Main Street, Breedon-on-the-Hill, Derby, DE73 8AN"|52.80|-1.39|6986.00|1.00|0.00|58.00
+120120|"Orchard Church of England Primary School, Broughton Astley, Blenheim Crescent, Broughton Astley, Leicester, LE9 6QX"|52.53|-1.23|4371.00|1.00|0.00|206.00
+120121|"Burbage Church of England Infant School, Grove Road, Burbage, Hinckley, LE10 2AE"|52.52|-1.35|4594.00|1.00|0.00|271.00
+120122|"St Edwards Church of England Primary School, Dovecote, Castle Donington, Derby, DE74 2LH"|52.84|-1.33|5028.00|1.00|0.00|173.00
+120127|"Diseworth Church of England Primary School, Grimesgate, Diseworth, Derby, DE74 2QD"|52.81|-1.32|7847.00|1.00|0.00|45.00
+120129|"Fleckney Church of England Primary School, Batchelor Road, Fleckney, Leicester, LE8 8BE"|52.53|-1.05|3991.00|1.00|0.00|379.00
+120131|"Great Glen St Cuthbert's Church of England Primary School, The Chase, Great Glen, Leicester, LE8 9EQ"|52.57|-1.02|4249.00|1.00|0.00|235.00
+120136|"Houghton-on-the-Hill Church of England Primary School, Houghton-on-the-Hill Church of England Primary School, Main Street, Houghton-on-the-Hill, Leicester, LE7 9GD"|52.62|-1.00|4459.00|1.00|0.00|175.00
+120141|"Long Clawson Church of England Primary School, School Lane, Long Clawson, Melton Mowbray, LE14 4PB"|52.83|-0.92|5408.00|1.00|0.00|102.00
+120142|"Long Whatton Church of England Primary School and Community Centre, The Green, Long Whatton, Loughborough, LE12 5DB"|52.80|-1.28|5949.00|1.00|0.00|80.00
+120070|"The Hall School, Glenfield Frith Drive, Glenfield, Leicester, LE3 8PQ"|52.64|-1.18|4411.00|1.00|0.00|436.00
+120079|"Water Leys Primary School, Guilford Drive, , Wigston, LE18 1HG"|52.59|-1.11|4930.00|1.00|0.00|361.00
+119921|"Desford Community Primary School, Kirkby Road, Desford, Leicester, LE9 9JH"|52.62|-1.29|4338.00|1.00|0.00|303.00
+119922|"Dunton Bassett Primary School, The Mount, Dunton Bassett, Lutterworth, LE17 5JL"|52.51|-1.19|5917.00|1.00|0.00|87.00
+119923|"Foxton Primary School, Gallow Field Road, Foxton, Market Harborough, LE16 7QZ"|52.49|-0.97|5859.00|1.00|0.00|85.00
+119927|"Hinckley Parks Primary School, Hinckley Parks Primary School, Leicester Road, , Hinckley, LE10 1LP"|52.54|-1.36|4083.00|1.00|0.00|410.00
+119928|"Westfield Junior School, Westfield Road, , Hinckley, LE10 0LT"|52.53|-1.38|5197.00|1.00|0.00|333.00
+119930|"Barwell Infant School, Townend Road, Barwell, Leicester, LE9 8HG"|52.56|-1.34|4812.00|1.00|0.00|188.00
+119931|"Ibstock Junior School, Melbourne Road, , Ibstock, LE67 6NP"|52.68|-1.40|4026.00|1.00|0.00|218.00
+119932|"Kegworth Primary School, High Street, Kegworth, Derby, DE74 2DA"|52.83|-1.28|4667.00|1.00|0.00|167.00
+119949|"Congerstone Primary School, Shackerstone Road, Congerstone, Nuneaton, CV13 6NH"|52.64|-1.45|5379.00|1.00|0.00|130.00
+119952|"Stathern Primary School, Water Lane, Stathern, Melton Mowbray, LE14 4HX"|52.87|-0.85|6054.00|1.00|0.00|75.00
+119954|"Worthington School, Main Street, Worthington, Ashby-de-la-Zouch, LE65 1RQ"|52.78|-1.39|7295.00|1.00|0.00|62.00
+119961|"Oxley Primary School Shepshed, Thorpe Road, Shepshed, Loughborough, LE12 9LU"|52.76|-1.30|4437.00|1.00|0.00|229.00
+119964|"Burbage Junior School, Grove Road, Burbage, Hinckley, LE10 2AD"|52.52|-1.35|4556.00|1.00|0.00|361.00
+119973|"Booth Wood Primary School, Old Ashby Road, , Loughborough, LE11 4PG"|52.76|-1.24|6032.00|1.00|0.00|209.00
+119974|"John Wycliffe Primary School, John Wycliffe Primary School, Moorbarns Lane, , Lutterworth, LE17 4QJ"|52.45|-1.20|3946.00|1.00|0.00|247.00
+119912|"Burton-on-the-Wolds Primary School, Barrow Road, Burton-on-the-Wolds, Loughborough, LE12 5TB"|52.78|-1.13|4897.00|1.00|0.00|170.00
+119913|"Belvoirdale Community Primary School, Scotlands Road, , Coalville, LE67 3RD"|52.72|-1.36|4418.00|1.00|0.00|297.00
+119914|"Ellistown Community Primary School, Whitehill Road, Ellistown, Coalville, LE67 1EN"|52.69|-1.36|4482.00|1.00|0.00|229.00
+119915|"Hugglescote Community Primary School, Ashburton Road, Hugglescote, Coalville, LE67 2HA"|52.71|-1.37|4358.00|1.00|0.00|405.00
+119934|"Hemington Primary School, Main Street, Hemington, Derby, DE74 2RB"|52.84|-1.32|6368.00|1.00|0.00|61.00
+119944|"Donisthorpe Primary School, Ashby Road, Donisthorpe, Swadlincote, DE12 7QF"|52.72|-1.52|4792.00|1.00|0.00|183.00
+132226|"Greenfield Primary School, Gwendoline Drive, Countesthorpe, Leicester, LE8 5SG"|52.55|-1.14|3768.00|1.00|0.00|587.00
+120348|"Maplewell Hall School, Maplewell Road, Woodhouse Eaves, Loughborough, LE12 8QY"|52.71|-1.22|16130.00|0.00|1.00|167.00
+120257|"Shepshed High School, Forest Street, Shepshed, Loughborough, LE12 9DA"|52.77|-1.28|6352.00|1.00|1.00|531.00
+120202|"St Peter's Church of England Primary School Whetstone, Wale Road, Whetstone, Leicester, LE8 6NJ"|52.57|-1.17|4802.00|1.00|0.00|225.00
+120204|"Swinford Church of England Primary School, Swinford Church of England Primary School, School Lane, Swinford, Lutterworth, LE17 6BG"|52.41|-1.16|5040.00|1.00|0.00|110.00
+120205|"Richard Hill Church of England Primary School, Richard Hill Church of England Primary School, Anstey Lane, Thurcaston, Leicester, LE7 7JA"|52.69|-1.16|4918.00|1.00|0.00|155.00
+120207|"Church Langton Church of England Primary School, Church Langton Church of England Primary School, Stonton Road, Church Langton, Market Harborough, LE16 7SZ"|52.53|-0.93|4700.00|1.00|0.00|188.00
+120210|"Saint Peters Catholic Primary School, Earl Shilton, Leicestershire, Mill Lane, Earl Shilton, , LE9 7AW"|52.57|-1.30|4851.00|1.00|0.00|209.00
+120153|"St Bartholomew's Church of England Primary School, Willowcroft, Quorn, Loughborough, LE12 8HQ"|52.74|-1.18|4084.00|1.00|0.00|462.00
+120156|"Scalford Church of England Primary School, School Lane, Scalford, Melton Mowbray, LE14 4DT"|52.80|-0.86|6213.00|1.00|0.00|67.00
+120159|"St Botolph's Church of England Primary School, Loughborough Road, Shepshed, Loughborough, LE12 9DN"|52.77|-1.28|4897.00|1.00|0.00|235.00
+120274|"Iveshead School, Forest Street, Shepshed, Loughborough, LE12 9DB"|52.77|-1.28|6296.00|0.00|1.00|573.00
+120193|"St Mary's Church of England Primary School Bitteswell, St Mary's Church of England Primary School, Bitteswell, The Green, Bitteswell, Lutterworth, LE17 4SB"|52.46|-1.21|5675.00|1.00|0.00|109.00
+120195|"Kilby St Mary's Church of England Primary School, Main Street, Kilby, Wigston, LE18 3TD"|52.55|-1.08|5512.00|1.00|0.00|87.00
+120198|"All Saints Church of England Primary School, Sapcote, All Saints Church of England Primary School, Sapcote, Bassett Lane, Sapcote, Leicester, LE9 4FB"|52.53|-1.28|5167.00|1.00|0.00|174.00
+120199|"Snarestone Church of England Primary School, Main Street, Snarestone, Swadlincote, DE12 7DB"|52.68|-1.49|6157.00|1.00|0.00|85.00
+120200|"St Margaret's Church of England Primary School, St Margaret's Church of England Primary School, Stoke Golding, High Street, Stoke Golding, Nuneaton, CV13 6HE"|52.57|-1.41|4346.00|1.00|0.00|219.00
+120096|"Woodcote Primary School, Willowbrook Close, , Ashby-de-la-Zouch, LE65 1JX"|52.75|-1.47|5367.00|1.00|0.00|193.00

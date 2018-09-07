@@ -1,13 +1,17 @@
+// out: ../src/css/call-to-action.css
+@import "variables.less";
+@import "mixins.less";
+
 .call-to-action {
   position: relative;
-  background-color: $gray-800;
+  background-color:@gray-800;
   background: url('../img/bg-masthead.jpg') no-repeat center center;
-  @include background-cover;
+  .background-cover();
   padding-top: 7rem;
   padding-bottom: 7rem;
   .overlay {
     position: absolute;
-    background-color: $gray-900;
+    background-color:@gray-900;
     height: 100%;
     width: 100%;
     top: 0;

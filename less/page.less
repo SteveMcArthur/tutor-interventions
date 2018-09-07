@@ -1,17 +1,18 @@
-@import "variables.scss";
-@import "mixins.scss";
+// out: ../src/css/page.css
+@import "variables.less";
+@import "mixins.less";
 /*page*/
 .page-header {
     padding-top: 221px;
     padding-bottom: 78px;
     position: relative;
     background-position: center center;
-    background: $primary;
+    background: @primary;
     background-size: cover;
 }
 .page-header h1 {
     font-weight: 300;
-    color: $lightest-background;
+    color: @lightest-background;
     margin-bottom: 33px;
 }
 .header-content {
@@ -26,14 +27,14 @@
 }
 .breadcrumbs ul {
     list-style: none;
-    color: $lightest-background;
+    color: @lightest-background;
     padding-left: 0;
 }
 .breadcrumbs li {
     display: inline;
 }
 .breadcrumbs li a {
-    color: $lightest-background;
+    color: @lightest-background;
     text-decoration: none;
 }
 .breadcrumbs li:not(:last-child):after {
@@ -42,7 +43,7 @@
     top: -2px; 
     padding-right: 8px; 
     padding-left: 8px;
-    color: $lightest-background;
+    color: @lightest-background;
   }
 .page-content {
     min-height: 520px;
@@ -53,7 +54,7 @@
     list-style: none;
 }
 .page-header .overlay {
-    background-color: rgba($primary,.8);
+    background-color: rgba(@primary,.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -76,13 +77,13 @@
     color: #011b3a;
 }
 aside.post {
-    border: 2px solid $secondary;
+    border: 2px solid @secondary;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 35px;
 }
 .gray {
-    background: $gray-background;
+    background: @gray-background;
 }
 .bulleted ul {
     list-style: disc;

@@ -6,7 +6,14 @@
         <div class="row">
           <div class="col-xl-12 mx-auto">
             <h1 class="mb-5"><%-@site.introText%></h1>
-            <a class="btn btn-primary btn-blue" href="/request-tutor/">Request Tutor <span class="arrow">&gt;</span></a>
+            <div class="intro-para">
+            <%- @contents %>
+            <div class="contact-me">
+            Call me on <a href="tel:<%-@site.tel%>"><%-@site.tel%></a><br>
+            Or contact us through our online form:
+            </div>
+            </div>
+            <a class="btn btn-primary btn-blue" href="/request-tutor/">Contact Us <span class="arrow">&gt;</span></a>
           </div>
         </div>
       </div>

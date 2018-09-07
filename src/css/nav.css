@@ -1,22 +1,27 @@
+.background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.body-font {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 /*nav*/
 .hidden {
   display: none;
 }
-
 .navbar {
   display: block;
 }
-
 .navbar i {
   font-size: 20px;
   margin-right: 0.8rem;
   color: #00aaff;
 }
-
 .navbar .tel i {
   font-size: 25px;
 }
-
 .navbar-holder {
   z-index: 999;
   margin-bottom: -147px;
@@ -24,55 +29,44 @@
   font-size: 18px;
   padding: 0;
 }
-
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
-
 .navbar-holder a {
   color: #fff;
 }
-
 .navbar-brand {
   max-width: 20%;
   margin-left: -1rem;
 }
-
 .navbar-brand img {
   width: 200px;
 }
-
 .navbar-bottom {
   display: block;
   font-weight: bold;
   min-height: 25px;
   margin: 0px auto;
 }
-
 .navbar-bottom .nav-item {
   margin: 0 24px;
 }
-
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
   color: #00aaff;
 }
-
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #00aaff;
 }
-
 .navbar-nav.contact .nav-item {
   padding-right: 3em;
 }
-
 .bg-trans {
   background: transparent;
 }
-
 .navbar-top {
   font-size: 13px;
   background-color: #011b3a;
@@ -81,11 +75,9 @@
   margin: 0px auto;
   display: none;
 }
-
 .navbar-bottom {
   background-color: #011b3a;
 }
-
 @media (min-width: 768px) {
   .navbar-top {
     display: block;

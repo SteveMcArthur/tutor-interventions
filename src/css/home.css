@@ -4,7 +4,7 @@
 }
 
 .btn-blue {
-  background-color: transparent;
+  background-color: #00aaff;
   border: 2px solid #00aaff;
   min-width: 160px;
   display: inline-block;
@@ -16,10 +16,10 @@
   font-weight: 400;
 }
 
-.btn-blue:hover {
+.btn-blue:hover, .btn-blue:active {
   color: #fff;
-  background-color: #00aaff;
-  border-color: #00aaff;
+  background-color: #0062cc;
+  border-color: #0062cc;
 }
 
 .masthead h1 {

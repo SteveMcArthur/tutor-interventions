@@ -76,12 +76,22 @@
 <%end%>
 <%if(@googlemaps):%>
     <script>
-        var map;
+        window.ti = window.ti || {};
+
+        <%if(@mapConfig):%>
+        var mapConfig = <%-@mapConfig%>
+        <%end%>
+        
         var centerLL =  {lat: <%-@site.coordinates.lat%>, lng: <%-@site.coordinates.lng%>};
+        var zoom = 14;
+        if(mapConfig) {
+            centerLL = mapConfig.center;
+            zoom = mapConfig.zoom;
+        }
         function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
+            window.ti.map = new google.maps.Map(document.getElementById('map'), {
             center: centerLL,
-            zoom: 14,
+            zoom: zoom,
             scrollwheel: false
             });
             google.maps.event.addListenerOnce(map, 'tilesloaded', function(){

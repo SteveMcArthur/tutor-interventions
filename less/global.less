@@ -1,8 +1,10 @@
+// out: ../src/css/global.css
+@import "mixins.less";
 html, body {
     font-size: 20px;
 }
 body {
-  @include body-font;
+  .body-font();
   color: #595959;
 }
 
@@ -12,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  @include body-font;
+  .body-font();
   font-weight: 700;
 }
 

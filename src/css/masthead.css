@@ -7,23 +7,44 @@
 .body-font {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.call-to-action {
+header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  height: 650px;
 }
-.call-to-action .overlay {
+header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: rgba(1, 27, 58, 0.4);
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   opacity: 0.3;
+}
+header.masthead h1 {
+  font-size: 2rem;
+}
+header.masthead .contact-me {
+  margin-bottom: 1em;
+}
+header.masthead .contact-me a {
+  color: #fff;
+}
+header.masthead p {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
 }
