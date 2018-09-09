@@ -1,0 +1,31 @@
+<% extend 'layout.ect' %>
+
+    <header class="page-header text-white text-center" style="background-image:url('<%-@image%>');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 header-content">
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="/">Tutor Interventions</a></li>
+                    <li><a href="<%-@relativeUrl%>"><%-@title%></a></li>
+                </ul>      
+            </div>
+            <h1 class="mb-5"><%-@title%></h1>
+            <div class="seperator"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <article class="post">
+                        <%- @contents %>
+                        <div id="schools-table"></div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>

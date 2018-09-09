@@ -17,6 +17,9 @@ header.masthead {
   padding-top: 8rem;
   padding-bottom: 8rem;
   height: 650px;
+  /*   .intro-para {
+    // background: rgba(255,255,255,0.8);
+  } */
 }
 header.masthead .overlay {
   position: absolute;
