@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-trans navbar-holder">
+<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-trans navbar-holder">
    <nav class="navbar navbar-top">
         <div class="container">
             <ul class="navbar-nav pull-left contact">
@@ -44,7 +44,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
@@ -56,6 +56,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/contact/">Contact</a>
                     </li>
+                    <%if @dropdown:%>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Articles</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="/leicester-schools/">Leicester Schools' Spend Per Pupil</a>
+                        </div>
+                    </li>
+                    <%end%>
                 </ul>
 
             </div>

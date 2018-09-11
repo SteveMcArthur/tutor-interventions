@@ -1,29 +1,69 @@
-.background-cover {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.body-font {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-.call-to-action {
+/*ball rolling*/
+.ball-rolling .icon-box {
+  margin-right: -10px;
+  margin-bottom: 30px;
+  min-height: 413px;
   position: relative;
-  background-color: #343a40;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  background: #fff;
+  padding: 40px;
 }
-.call-to-action .overlay {
+.ball-rolling .icon-box .icon {
+  float: left;
+  font-size: 61px;
+}
+.ball-rolling .icon-box .icon img {
+  width: 1em;
+  display: inline-block;
+  height: auto;
+}
+.ball-rolling .icon-box .content {
+  overflow: hidden;
+  padding-left: 25px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+}
+.ball-rolling .icon-box .content p {
+  line-height: 24px;
+}
+.ball-rolling h4 {
+  font-size: 20px;
+  margin-top: -6px;
+  margin-bottom: 12px;
+  font-weight: 300;
+  line-height: 30px;
+  min-height: 90px;
+}
+.feature .btn-blue {
+  color: #fff;
+  font-size: 13px;
+}
+.feature .btn-blue i {
+  margin-left: 0.5rem;
+  font-size: 16px;
+}
+.btn-blue .arrow {
+  margin-left: 0.5rem;
+  font-size: 16px;
+}
+.ball-rolling .step {
   position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
+  bottom: -14px;
+  right: -5px;
+  z-index: 1;
+  font-size: 120px;
+  font-weight: 900;
+  color: #f8f8f8;
+  line-height: 1;
+}
+.ball-rolling .desc {
+  min-height: 168px;
+}
+.fees ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+.fees-list {
+  text-align: left;
+  margin-bottom: 30px;
 }

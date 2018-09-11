@@ -1,43 +1,47 @@
 // out: ../src/css/masthead.css
 @import "variables.less";
 @import "mixins.less";
+/*masthead*/
 header.masthead {
-  position: relative;
-  background-color: @gray-800;
-  .background-cover();
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  height: 650px;
-  .overlay {
-    position: absolute;
-    background-color: rgba(1, 27, 58, 0.4);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-  }
-  h1 {
-    font-size: 2rem;
-  }
-  .intro-para {
-    // background: rgba(255,255,255,0.8);
-  }
-  .contact-me {
-    margin-bottom: 1em;
-  }
-  .contact-me a {
-    color: #fff;
-  }
-  p {
-    color: #fff;
-  }
-  @media (min-width: 768px) {
-    padding-top: 10rem;
-    padding-bottom: 12rem;
-    h1 {
-      font-size: 3rem;
+    position: relative;
+    background-color: @gray-800;
+    .background-cover();
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 650px;
+    .overlay {
+        position: absolute;
+        background-color: rgba(1, 27, 58, 0.4);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.3;
     }
-  }
 }
 
+header.masthead h1 {
+    font-size: 2rem;
+}
+
+header.masthead .contact-me {
+    margin-bottom: 1em;
+}
+
+header.masthead .contact-me a {
+    color: #fff;
+}
+
+header.masthead p {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 10rem;
+        padding-bottom: 12rem;
+    }
+    header.masthead h1 {
+        font-size: 3rem;
+    }
+}

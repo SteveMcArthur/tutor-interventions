@@ -42,10 +42,19 @@
 <%if @mincss:%>
     <link href="/css/styles.min.css" rel="stylesheet">
 <%else if @combinedcss: %>
- <link href="/css/styles.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
 <%else:%>
     <!-- Custom styles for this template -->
-    <link href="/css/styles.css" rel="stylesheet">
+
+    <link href="/css/global.css" rel="stylesheet">
+
+    <link href="/css/masthead.css" rel="stylesheet">
+    <link href="/css/showcase.css" rel="stylesheet">
+    <link href="/css/icons.css" rel="stylesheet">
+    <link href="/css/testimonials.css" rel="stylesheet">
+    <link href="/css/call-to-action.css" rel="stylesheet">
+
+
     <link href="/css/nav.css" rel="stylesheet">
     <link href="/css/footer.css" rel="stylesheet">
     <link href="/css/ball-rolling.css" rel="stylesheet">

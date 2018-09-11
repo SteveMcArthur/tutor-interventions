@@ -2,7 +2,6 @@
 @import "variables.less";
 @import "mixins.less";
 /*nav*/
-
 .hidden {
     display: none;
 }
@@ -90,6 +89,16 @@
 .navbar-bottom {
     background-color: @primary;
 }
+#main-nav .dropdown-menu {
+    background-color: transparent;
+    color: @white;
+    border: none;
+    font-weight: bold;
+}
+#main-nav .dropdown-item:focus,#main-nav .dropdown-item:hover {
+    background: transparent;
+    color: @secondary;
+}
 
 @media (min-width: 768px) {
     .navbar-top {
@@ -97,5 +106,8 @@
     }
     .navbar-bottom {
         background: transparent;
+    }
+    #main-nav .dropdown-menu {
+        margin-left: -13em;
     }
 }

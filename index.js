@@ -91,8 +91,8 @@ metalsmith(__dirname)
             generator: "Metalsmith",
             url: "https://www.tutorinterventions.co.uk/"
         },
-        mincss: true,
-        combinedcss: false,
+        mincss: false,
+        combinedcss: true,
         ga: true,
         writeObject: function(obj){
             fs.writeFileSync("obj.json",util.inspect(obj),'utf-8');

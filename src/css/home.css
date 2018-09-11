@@ -1,8 +1,16 @@
+.background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.body-font {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 /*home*/
 .btn {
   border-radius: 0;
 }
-
 .btn-blue {
   background-color: #00aaff;
   border: 2px solid #00aaff;
@@ -15,41 +23,34 @@
   font-size: 16px;
   font-weight: 400;
 }
-
-.btn-blue:hover, .btn-blue:active {
+.btn-blue:hover,
+.btn-blue:active {
   color: #fff;
   background-color: #0062cc;
   border-color: #0062cc;
 }
-
 .masthead h1 {
   font-weight: 400;
 }
-
 .feature {
   position: relative;
 }
-
 .feature .container {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
 .feature h2 {
   margin-bottom: 34px;
   color: #011b3a;
 }
-
 .feature.bg-dark h2 {
   color: #fff;
 }
-
 p {
   margin-bottom: 30px;
   line-height: 30px;
   color: #595959;
 }
-
 .seperator {
   border-bottom: 2px solid #00aaff;
   margin-bottom: 41px;
@@ -58,34 +59,27 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-
 .bg-dark {
   color: #fff;
 }
-
 .icon-item {
   padding: 40px;
 }
-
 .icon-box {
   float: left;
 }
-
 .icon-box img {
   width: 61px;
 }
-
 .icon-box-content {
   padding-left: 25px;
   position: relative;
 }
-
 .advantages {
-  background-image: url("/img/children-working-together.jpg");
+  background-image: url('/img/children-working-together.jpg');
   background-size: cover;
   background-position-y: -60px;
 }
-
 .section-overlay {
   position: absolute;
   background-color: rgba(1, 27, 58, 0.8);

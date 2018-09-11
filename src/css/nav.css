@@ -78,11 +78,25 @@
 .navbar-bottom {
   background-color: #011b3a;
 }
+#main-nav .dropdown-menu {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+#main-nav .dropdown-item:focus,
+#main-nav .dropdown-item:hover {
+  background: transparent;
+  color: #00aaff;
+}
 @media (min-width: 768px) {
   .navbar-top {
     display: block;
   }
   .navbar-bottom {
     background: transparent;
+  }
+  #main-nav .dropdown-menu {
+    margin-left: -13em;
   }
 }
